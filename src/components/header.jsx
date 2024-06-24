@@ -39,26 +39,6 @@ const Header = () => {
   }, []);
 
 
-    const [formData, setFormData] = useState({
-        firstName: '',
-        lastName: '',
-        email: '',
-        phoneNumber: '',
-        cv: null
-    });
-
-    const handleChange = (e) => {
-        const { name, value, files } = e.target;
-        setFormData({
-            ...formData,
-            [name]: files ? files[0] : value
-        });
-    };
-
-    const handleSubmit = (e) => {
-        e.preventDefault();
-        console.log(formData);
-    };
 
   return (
     <>
@@ -116,72 +96,8 @@ const Header = () => {
             </div>
           )}>Insights</a></li>
           {/*<li><a onClick={() => openDrawer("Welcome to the WHITE MATRIX Insights section, your go-to resource for the latest trends, innovative practices, and thought leadership in technology and software development. We aim to empower our clients and the broader community with valuable knowledge and insights to stay ahead in the fast-evolving digital landscape. Industry Trends and Analysis Stay informed with our expert analysis of the latest trends in technology and software development. From AI advancements and machine learning to innovations in mobile app technology, we provide insights to help you leverage these trends, aligning with our 'Technology Simplified' philosophy. Case Studies Explore our case studies showcasing real-world challenges and solutions. See how our unique work breakdown structure enhances productivity and reduces development time, delivering tangible results for clients across various industries. Expert Opinions and Thought Leadership Gain perspectives from our industry experts and thought leaders. Our articles delve into critical issues, emerging technologies, and strategic approaches to business innovation, highlighting how user-friendly, people-oriented solutions can transform your business.")}>Insights</a></li>*/}
-          {/*<li><Link to="/insight">Insights</Link></li>
-          <li><Link to="/career">Careers</Link></li>*/}
-
-          <li>
-            <a onClick={() => openDrawer(
-              <div>
-                <div className="c-text-content">
-                  <h1 className="c-heading">Career</h1><br/>
-                  <p className="c-paragraph">
-                    <h2>Welcome to Our Team!</h2><br/>
-                    Welcome to WHITE MATRIX! Join us in simplifying technology and driving innovation. Enjoy the flexibility of working from home while contributing to cutting-edge projects. Grow your skills in a collaborative environment that celebrates creativity and supports career development. Explore opportunities to be part of our forward-thinking team. Join us and make an impact.
-                  </p>
-                </div>
-                <form className="c-form" onSubmit={handleSubmit}>
-                <div className="c-form-field-row">
-                  <input
-                    type="text"
-                    name="firstName"
-                    placeholder="First Name"
-                    className="c-input-field"
-                    value={formData.firstName}
-                    onChange={handleChange}
-                   />
-                  <input
-                    type="text"
-                    name="lastName"
-                    placeholder="Last Name"
-                    className="c-input-field"
-                    value={formData.lastName}
-                    onChange={handleChange}
-                   />
-                </div>
-                <div className="c-form-field-row">
-                  <input
-                    type="email"
-                    name="email"
-                    placeholder="Email"
-                    className="c-input-field"
-                    value={formData.email}
-                    onChange={handleChange}
-                   />
-                </div>
-                <div className="c-form-field-row">
-                  <input
-                    type="tel"
-                    name="phoneNumber"
-                    placeholder="Phone Number"
-                    className="c-input-field c-input-field-3-4"
-                    value={formData.phoneNumber}
-                    onChange={handleChange}
-                  />
-                  <label htmlFor="cv" className="c-file-label">Upload CV</label>
-                  <input
-                    type="file"
-                    name="cv"
-                    id="cv"
-                    className="c-file-input"
-                    onChange={handleChange}
-                  />
-                </div>
-                <button type="submit" className="c-submit-button">Submit</button>
-              </form>
-            </div>
-            )}>Careers
-            </a>
-          </li>
+          {/*<li><Link to="/insight">Insights</Link></li>*/}
+          <li><Link to="/career">Careers</Link></li>
         </ul>
         <div className="toggle" onClick={toggle}></div>
       </StyledHeader>
