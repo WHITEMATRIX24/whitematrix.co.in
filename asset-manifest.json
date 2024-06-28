@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.0f59f18f.css",
-    "main.js": "/static/js/main.fcc41c9c.js",
+    "main.js": "/static/js/main.ba40f982.js",
     "static/js/453.affe5fa3.chunk.js": "/static/js/453.affe5fa3.chunk.js",
     "static/media/software.jpg": "/static/media/software.86c66569a3e124d88c5b.jpg",
     "static/media/voip2.jpg": "/static/media/voip2.d362a9f1bca4ddf46c67.jpg",
@@ -21,11 +21,11 @@
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
     "main.0f59f18f.css.map": "/static/css/main.0f59f18f.css.map",
-    "main.fcc41c9c.js.map": "/static/js/main.fcc41c9c.js.map",
+    "main.ba40f982.js.map": "/static/js/main.ba40f982.js.map",
     "453.affe5fa3.chunk.js.map": "/static/js/453.affe5fa3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0f59f18f.css",
-    "static/js/main.fcc41c9c.js"
+    "static/js/main.ba40f982.js"
   ]
 }
