@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/whitematrix.co.in/static/css/main.d489b3aa.css",
-    "main.js": "/whitematrix.co.in/static/js/main.7f8d22e2.js",
-    "static/js/453.affe5fa3.chunk.js": "/whitematrix.co.in/static/js/453.affe5fa3.chunk.js",
+    "main.js": "/whitematrix.co.in/static/js/main.e0f3bbd4.js",
+    "static/js/453.bbed2f9d.chunk.js": "/whitematrix.co.in/static/js/453.bbed2f9d.chunk.js",
     "static/media/software.jpg": "/whitematrix.co.in/static/media/software.86c66569a3e124d88c5b.jpg",
     "static/media/voip2.jpg": "/whitematrix.co.in/static/media/voip2.d362a9f1bca4ddf46c67.jpg",
     "static/media/ai1.jpg": "/whitematrix.co.in/static/media/ai1.856d917af0de082d5f25.jpg",
@@ -21,11 +21,11 @@
     "static/media/slick.woff": "/whitematrix.co.in/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/whitematrix.co.in/index.html",
     "main.d489b3aa.css.map": "/whitematrix.co.in/static/css/main.d489b3aa.css.map",
-    "main.7f8d22e2.js.map": "/whitematrix.co.in/static/js/main.7f8d22e2.js.map",
-    "453.affe5fa3.chunk.js.map": "/whitematrix.co.in/static/js/453.affe5fa3.chunk.js.map"
+    "main.e0f3bbd4.js.map": "/whitematrix.co.in/static/js/main.e0f3bbd4.js.map",
+    "453.bbed2f9d.chunk.js.map": "/whitematrix.co.in/static/js/453.bbed2f9d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d489b3aa.css",
-    "static/js/main.7f8d22e2.js"
+    "static/js/main.e0f3bbd4.js"
   ]
 }
