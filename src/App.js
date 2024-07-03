@@ -16,7 +16,7 @@ function App() {
     <div className="App">
       <Router>
         <Routes>
-          <Route path="/wm-portfolio" element={<MyComponent />} />
+          <Route path="/whitematrix.co.in" element={<MyComponent />} />
           <Route path="/career" element={<Career />} />
           <Route path="/insight" element={<Insight />} />
           <Route path="/mobile" element={<MobileApp />} />
